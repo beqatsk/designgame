@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter&display=swap');
+
+.container{
+    max-width: 1420px;
+    width: 100%;
+    margin: 0 auto;
+    background: #16161A;
+}
+.header{
+    width: 100%;
+    height: 505px;
+    background-image: url(../images/img3.png);
+    background-position: center;
+    background-size: cover;
+}
+.burger-menu{
+    display: block;
+    color: whitesmoke;
+}
+.header-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.header-logo{
+    width: 150px;
+    height: 30px;
+}
+.header-vector{
+    width: 220px;
+    height: 30px;
+}
+.nav-list,a{
+    display: flex;
+    column-gap: 30px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;  
+    color: #FFFFFF;
+}
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #16161A;
+    width: 176px;
+    height: 56px;
+    background: #5092D2;
+    border-radius: 5px; 
+}
+.header-btn:hover{
+    background: #075baf;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+h1{
+    max-width: 600px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 90%;
+    color: #FFFFFF;
+}
+.header-text{
+    max-width: 618px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.wrapper{
+    display: flex;
+    column-gap: 20px;
+}
+.wrapper-btn,.wrapper-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 56px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.wrapper-btn{
+    background: #5092D2;
+    color: #16161A;
+}
+.wrapper-btn:hover{
+    background: #0861ba;
+}
+.wrapper-button{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+}
+.wrapper-button:hover{
+    background-color: black;
+}
+.hero-img{
+    width: 600px;
+}
+.game-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/* section bastidores */
+
+.bastidores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 505px;
+    background-image: url(../images/img5.png);
+    background-size: cover;
+    padding: 40px;
+    margin-top: 20px;
+
+}
+.bastidores-screen{
+    width: 368px;
+    height: 150px;
+}
+.bastidores-img{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+h2{
+    max-width: 381px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+.bastidores-text{
+    max-width: 404px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;;
+    color: #FFFFFF;
+}
+
+/* section comunidade */
+ 
+.comunidade{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.comunidade-card{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    width: 652px;
+    height: 420px;
+    background: #27272E;
+    border-radius: 5px;
+}
+h3{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.comunidade-title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+h4{
+    max-width: 368px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.comunidade-text{
+    max-width: 405px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.comunidade-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;  
+    background: #5092D2;
+    border-radius: 5px;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #16161A;
+    cursor: pointer;
+}
+.comunidade-btn:hover{
+    background: #0a6dd1;
+}
+.comunidade-img{
+    width: 321px;
+    height: 420px;
+}

@@ -1,0 +1,66 @@
+@media (max-width:768px){
+    .nav-list{
+        display: none;
+    }
+    .header-vector{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        font-size: 30px;
+        color: white;
+    }
+ 
+    .header-wrapper{
+        row-gap: 5px;
+    }
+    .bastidores{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .bastidores-title{
+        display: none;
+    }
+    .header{
+        width: 100%;
+        height: 505px;
+        background-image: url(../images/img3.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .hero-img{
+        width:340px;
+        height: 300px;
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .bastidores-screen{
+        width: 368px;
+        height: 150px;
+    }
+    .bastidores-img{
+        row-gap: 18px;
+    }
+    .comunidade{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .comunidade-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    h4{
+        text-align: center;
+    }
+    .comunidade-img{
+        width: 210px;
+        height: 350px;
+    }
+}
